@@ -57,7 +57,7 @@ export default class UserDetails extends React.Component {
 
 					<View style={styles.item}>
 						<View style={styles.iconContent}>
-							<Image style={styles.icon} source={require('../../assets/img/sex.png')} />
+							<Image style={styles.icon} source={require('../../assets/img/gender.png')} />
 						</View>
 						<View style={styles.infoContent}>
 							<Text style={styles.info}>{this.state.user.gender} </Text>
